@@ -7,6 +7,7 @@ import { BottomNavigation } from '@mui/material';
 ReactDOM.createRoot(document.querySelector('#root')).render(
   <React.StrictMode>
     <StyledEngineProvider injectFirst>
+      <div></div>
       <Demo />
       <BottomNavigation />
       <div></div>
